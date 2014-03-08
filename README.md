@@ -4,9 +4,9 @@ Talks Samples
 Functional Programming
 ----------------------
 * SML:
-** pattern matching
+    * pattern matching
 * Scala:
-** recursion
-** tail recursion
-** higher order functions
-** currying
+    * recursion
+    * tail recursion
+    * higher order functions
+    * currying
