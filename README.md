@@ -21,3 +21,16 @@ Functional Programming
     * tail recursion
     * higher order functions
     * currying
+
+JSON Processing review
+----------------------
+* API shortcommings
+    * inconsistent method naming
+    * JsonValue.NULL vs null literal mismatch
+    * misleading toString() for JsonValue.NULL
+    * misleading toString() for JsonValue.TRUE and JsonValue.FALSE
+* Proposals
+    * JsonFeature usage
+    * changes in the hashCode() and equals() for JsonNumberImpl
+* Unit tests
+    * JsonObject.equals() behavior
